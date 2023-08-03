@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Curriculum Vitae</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f0f0;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .main-content {
+      flex: 2;
+      padding: 20px;
+    }
+    .navigation {
+      flex: 1;
+      background-color: #e1e1e1;
+      padding: 20px;
+      position: sticky;
+      top: 0;
+      height: 100vh;
+    }
+    .navigation ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    .navigation li {
+      margin-bottom: 10px;
+    }
+    .navigation a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+      border-radius: 50px; /* Make the links circular */
+      padding: 8px 15px; /* Add some padding for better appearance */
+      transition: border-radius 0.3s ease; /* Smoothly animate border-radius change */
+    }
+    .navigation a:hover {
+      background-color: #ad2edf; /* Change background color on hover */
+      color: #fff; /* Change text color on hover */
+      border-radius: 5px; /* Make the links slightly rounded on hover */
+    }
+    h1, h2 {
+      color: #ffffff;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f0f0;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .main-content {
+      flex: 2;
+      padding: 20px;
+    }
+    .navigation {
+      flex: 1;
+      background-color: #e1e1e1;
+      padding: 20px;
+      position: sticky;
+      top: 0;
+      height: 100vh;
+    }
+    .navigation ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    .navigation li {
+      margin-bottom: 10px;
+    }
+    .navigation a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+    .navigation a:hover {
+      color: #ffffff; /* Change color on hover */
+    }
+    h1, h2 {
+      color: #007BFF;
+    }
+    p {
+      margin-bottom: 10px;
+    }
+    .section-title {
+      border-bottom: 2px solid #007BFF;
+      padding-bottom: 5px;
+    }
+    .skills-list {
+      margin-top: 0;
+      padding-left: 20px;
+    }
+</style>
+</head>
+<body>
+  <div class="container">
+    <div class="main-content">
+      <!-- Personal Information Section -->
+      <h1 id="section-summary">MD.ABDUS SALAM</h1>
+      <p>Phone: +1 (123) 456-7890</p>
+      <p>Email: 1902034@icte.bdu.ac.bd</p>
+      <p>Address: Brindabonpara,Fulbari,Bogura shadar,Bogura</p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/ab-salam-jim-07a3251a6/]" target="_blank">Your LinkedIn Profile</a></p>
+
+      <!-- Professional Summary/Objective Section -->
+      <div class="section-title">
+        <h2>Professional Summary</h2>
+      </div>
+      <p>Welcome to my Resume. This is MD. Abdus Salam Zim
+        and I hope that I will match the requirements you are
+        seeking. My positive attitude and strong ability of learning
+        led to my outstanding academic achievement.
+        I love to be around people, perks of being an amicably
+        social person. I try to be honest and trustworthy in every
+        aspect of life. You can also call me a team player as I'm
+        communicative, resourceful and spontaneous.
+        I have extensive tutoring experience in a variety of fields. I
+        have tutored in Biology as well as Chemistry. I have
+        helped students learn to analyze Basics, writing style of
+        creative question, understand hard topics and make them
+        easy to understand. Your program requires that tutors be
+        able to assist students in multiple subjects, and my
+        experience would allow me to do just that.
+        Last but not the least, I’m always honest by sticking to my
+        promise and always willing to communicate with others
+        or to help them with a great sense of teamwork.</p>
+
+      <!-- Education Section -->
+      <div class="section-title">
+        <h2 id="section-education">Education</h2>
+      </div>
+      <p>
+        <h3>SCHOOL</h3>
+      Police Lines School and College, Rangpur <br>
+      ● Bangla Medium <br>
+      ● SSC GPA 5.00 <br>
+      ● Dinajpur Education Board <br>
+      ● Scholarship (talent pool)</p>
+
+      <br>
+      <h3> COLLEGE </h3>
+      Police Lines School and College, Rangpur<br>
+● Bangla Medium <br>
+● HSC GPA 5.00 <br>
+● Dinajpur Education Board <br>
+● Scholarship (general) <br> <br>
+
+<h3>UNIVERSITY </h3> 
+Bangabandhu Sheikh Mujibur Rahman Digital
+University, Bangladesh <br>
+
+● Program (B.Sc in ICT in Education) <br>
+● Department of Education <br>
+● Faculty (Education & research) <br>
+● Session (2019-20) <br>
+● CGPA (not yet achieved) <br>
+      
+
+      <!-- Work Experience Section -->
+      <div class="section-title">
+        <h2 id="section-experience">Work Experience</h2>
+      </div>
+      <p>Company A - Position A - Date Range</p>
+      <ul>
+        <li>Description of responsibilities and accomplishments for Position A.</li>
+      </ul>
+      <p>Company B - Position B - Date Range</p>
+      <ul>
+        <li>Description of responsibilities and accomplishments for Position B.</li>
+      </ul>
+      
+      <!-- Skills Section -->
+      <div class="section-title">
+        <h2 id="section-skills">Work Experience</h2>
+      </div>
+      <ul class="skills-list">
+        ● PowerPoint. [Intermediate] <br>
+● Graphics & Animation. [Newbie]  <br>
+● Photoshop. [Intermediate] <br>
+● Illustrator. [Newbie] <br>
+● Writing. [Professional] <br>
+● Google tools [Intermediate] <br>
+        <!-- Add more skills as needed -->
+      </ul>
+
+      <!-- Achievements/Awards Section -->
+      <div class="section-title">
+        <h2 id="section-achievements">Work Experience</h2>
+      </div>
+      <ul>
+        <li>Recipient of [Award Name] for [Achievement], [Year]</li>
+      </ul>
+      <!-- Add more achievements/awards as needed -->
+
+      <!-- Projects Section -->
+      <div class="section-title">
+        <h2 id="section-projects">Work Experience</h2>
+      </div>
+      <p>Project X - Description - Date</p>
+      <ul>
+        <li>Your role and contributions to Project X.</li>
+      </ul>
+      <!-- Add more projects as needed -->
+
+      <!-- Publications/Presentations Section -->
+      <div class="section-title">
+        <h2 id="section-publications">Work Experience</h2>
+      </div>
+      <ul>
+        <li>Title of Published Article, Journal/Conference, Year</li>
+      </ul>
+      <!-- Add more publications/presentations as needed -->
+
+      <!-- Professional Affiliations Section -->
+      <div class="section-title">
+        <h2 id="section-affiliations">Work Experience</h2>
+      </div>
+      <ul>
+        <li>Member, [Professional Organization Name]</li>
+      </ul>
+      <!-- Add more professional affiliations as needed -->
+
+      <!-- Professional Training Section -->
+      <div class="section-title">
+        <h2 id="section-training">Work Experience</h2>
+      </div>
+      <ul>
+        <li>Training Program Name, Provider, Date</li>
+      </ul>
+      <!-- Add more professional training programs as needed -->
+
+      <!-- Language Skills Section -->
+      <div class="section-title">
+        <h2 id="section-languages">Work Experience</h2>
+      </div>
+      <ul>
+        <li>English: Fluent</li>
+        <li>Spanish: Intermediate</li>
+        <!-- Add more language skills as needed -->
+      </ul>
+
+      <!-- Volunteer Work Section -->
+      <div class="section-title">
+        <h2 id="section-volunteer">Work Experience</h2>
+      </div>
+      <p>Organization Name - Position/Role - Date Range</p>
+      <ul>
+        <li>Description of your responsibilities and achievements in the volunteer role.</li>
+      </ul>
+      <!-- Add more volunteer work experiences as needed -->
+
+      <!-- Research Experience Section -->
+      <div class="section-title">
+        <h2 id="section-research">Work Experience</h2>
+      </div>
+      <p>Institution/Organization Name - Research Project Name - Date Range</p>
+      <ul>
+        <li>Description of your role in the research project and its outcomes.</li>
+      </ul>
+      <!-- Add more research experiences as needed -->
+
+      <!-- Computer Skills Section -->
+      <div class="section-title">
+        <h2 id="section-computer-skills">Work Experience</h2>
+      </div>
+      <ul>
+        <li>Microsoft Office Suite (Word, Excel, PowerPoint)</li>
+        <li>Adobe Creative Suite (Photoshop, Illustrator, InDesign)</li>
+        <!-- Add more computer skills as needed -->
+      </ul>
+
+      <!-- Interests and Hobbies Section -->
+      <div class="section-title">
+        <h2 id="section-experience">Work Experience</h2>
+      </div>
+      <ul>
+        <li>Hobby 1</li>
+        <li>Hobby 2</li>
+        <li>Hobby 3</li>
+        <!-- Add more interests and hobbies as needed -->
+      </ul>
+    
+
+    </div>
+    <div class="navigation">
+      <ul>
+        <li><a href="#" onclick="scrollToSection('section-summary')">Summary</a></li>
+        <li><a href="#" onclick="scrollToSection('section-education')">Education</a></li>
+        <li><a href="#" onclick="scrollToSection('section-experience')">Work Experience</a></li>
+        <li><a href="#" onclick="scrollToSection('section-skills')">Skills</a></li>
+        <li><a href="#" onclick="scrollToSection('section-achievements')">Achievements/Awards</a></li>
+        <li><a href="#" onclick="scrollToSection('section-projects')">Projects</a></li>
+        <li><a href="#" onclick="scrollToSection('section-publications')">Publications/Presentations</a></li>
+        <li><a href="#" onclick="scrollToSection('section-affiliations')">Professional Affiliations</a></li>
+        <li><a href="#" onclick="scrollToSection('section-training')">Professional Training</a></li>
+        <li><a href="#" onclick="scrollToSection('section-languages')">Language Skills</a></li>
+        <li><a href="#" onclick="scrollToSection('section-volunteer')">Volunteer Work</a></li>
+        <li><a href="#" onclick="scrollToSection('section-research')">Research Experience</a></li>
+        <li><a href="#" onclick="scrollToSection('section-computer-skills')">Computer Skills</a></li>
+        <li><a href="#" onclick="scrollToSection('section-interests')">Interests and Hobbies</a></li>
+        <li><a href="#" onclick="scrollToSection('section-references')">References</a></li>
+      </ul>
+    </div>
+  </div>
+  <script>
+    function scrollToSection(sectionId) {
+      const sectionElement = document.getElementById(sectionId);
+      const headerOffset = 20;
+      const elementPosition = sectionElement.getBoundingClientRect().top;
+      const offsetPosition = elementPosition - headerOffset;
+
+      window.scrollBy({
+        top: offsetPosition,
+        behavior: 'smooth',
+      });
+    }
+  </script>
+</body>
+</html>
