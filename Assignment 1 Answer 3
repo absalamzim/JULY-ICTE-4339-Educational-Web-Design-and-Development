@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Country Capital Finder</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            color: #af72d8;
+            padding-top: 30px;
+        }
+
+        label {
+            display: block;
+            margin-top: 20px;
+            font-size: 18px;
+            color: #abc04f;
+        }
+
+        select {
+            font-size: 16px;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-top: 10px;
+            width: 200px;
+        }
+
+        #capital-display {
+            font-size: 100px;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Country Capital Finder</h1>
+    <label for="country-select">Select a country:</label>
+    <select id="country-select" onchange="displayCapital()">
+        <option value="" disabled selected>Select a country</option>
+        <option value="USA">United States</option>
+        <option value="UK">United Kingdom</option>
+        <option value="Canada">Canada</option>
+        <option value="Australia">Australia</option>
+        <option value="Germany">Germany</option>
+    </select>
+    <p id="capital-display"></p>
+
+    <script>
+        function displayCapital() {
+            const selectBox = document.getElementById("country-select");
+            const selectedCountry = selectBox.options[selectBox.selectedIndex].value;
+            let capital = "";
+
+            switch (selectedCountry) {
+                case "USA":
+                    capital = "Washington, D.C.";
+                    break;
+                case "UK":
+                    capital = "London";
+                    break;
+                case "Canada":
+                    capital = "Ottawa";
+                    break;
+                case "Australia":
+                    capital = "Canberra";
+                    break;
+                case "Germany":
+                    capital = "Berlin";
+                    break;
+                default:
+                    capital = "N/A";
+            }
+
+            const capitalDisplay = document.getElementById("capital-display");
+            capitalDisplay.innerText = capital;
+        }
+    </script>
+</body>
+</html>
