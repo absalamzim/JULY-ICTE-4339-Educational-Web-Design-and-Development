@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Answer 2</title>
+  <style>
+    body {
+      display: flex;
+      flex-direction: row;
+    }
+
+    #left {
+      width: 20%;
+      padding: 20px;
+      background-color: #f1f1f1;
+    }
+
+    #center {
+      width: 60%;
+      padding: 20px;
+    }
+
+    #right {
+      width: 20%;
+      padding: 20px;
+      background-color: #f1f1f1;
+    }  
+
+    th {
+      background-color: #3498db;
+      color: #fff;
+      padding: 10px;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f1f1f1;
+      color: #FF9933; /* Eye-catching font color */
+      font-weight: bold;
+    }
+
+    tr:nth-child(odd) {
+      background-color: #e74c3c;
+      color: #FF9933; /* Eye-catching font color */
+      font-weight: bold;
+    }
+
+    td {
+      padding: 8px;
+    }
+  </style>
+</head>
+<body>
+  
+    
+  <div id="right">
+    <!-- Remarks -->
+    <h2>Remarks</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nunc vel est accumsan pellentesque.</p>
+  </div>
+
+  <!-- Embedded Audio -->
+  <div id="center"></div>
+  <audio controls>
+    <source src="path_to_audio_file.mp3" type="audio/mpeg">
+    
+  </audio>
+
+  <!-- Embedded Video -->
+  <div id="left"></div>
+  <video width="380" height="240" controls>
+    <source src="path_to_video_file.mp4" type="video/mp4">
+    
+  </video>
+</body>
+</html>
