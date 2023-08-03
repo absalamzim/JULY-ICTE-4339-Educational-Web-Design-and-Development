@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Class Routine</title>
+  <style>
+    table {
+      width: 80%;
+      border-collapse: collapse;
+      margin: 20px auto;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: center;
+    }
+
+    th {
+      background-color: #3498db;
+      color: #fff;
+      padding: 10px;
+      font-family: 'Arial Black', sans-serif;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f1f1f1;
+      color: #FF9933; /* Eye-catching font color */
+      font-weight: bold;
+    }
+
+    tr:nth-child(odd) {
+      background-color: #e74c3c;
+      color: #FF9933; /* Eye-catching font color */
+      font-weight: bold;
+    }
+
+    td {
+      padding: 8px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <h1 style="text-align: center; font-family: 'Arial Black', sans-serif;">Class Routine</h1>
+  <table>
+    <tr>
+      <th>Day</th>
+      <th>Time</th>
+      <th>Subject</th>
+    </tr>
+    <tr>
+      <td>Monday</td>
+      <td>10:00 AM - 11:30 AM</td>
+      <td>Mathematics</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>1:00 PM - 2:30 PM</td>
+      <td>History</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>3:00 PM - 4:30 PM</td>
+      <td>Computer Science</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>5:00 PM - 6:30 PM</td>
+      <td>Chemistry</td>
+    </tr>
+    <tr>
+      <td>Tuesday</td>
+      <td>9:00 AM - 10:30 AM</td>
+      <td>Science</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>11:00 AM - 12:30 PM</td>
+      <td>English</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>2:00 PM - 3:30 PM</td>
+      <td>Biology</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>4:00 PM - 5:30 PM</td>
+      <td>Geography</td>
+    </tr>
+    <tr>
+      <td>Wednesday</td>
+      <td>8:00 AM - 9:30 AM</td>
+      <td>Physical Education</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>10:00 AM - 11:30 AM</td>
+      <td>Physics</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>1:00 PM - 2:30 PM</td>
+      <td>Social Studies</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>4:00 PM - 5:30 PM</td>
+      <td>Art</td>
+    </tr>
+    <tr>
+      <td>Thursday</td>
+      <td>9:00 AM - 10:30 AM</td>
+      <td>Language Arts</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>11:00 AM - 12:30 PM</td>
+      <td>Music</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>2:00 PM - 3:30 PM</td>
+      <td>Algebra</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>4:00 PM - 5:30 PM</td>
+      <td>Physical Science</td>
+    </tr>
+    
+   
+    <tr>
+      <td>Saturday</td>
+      <td>9:00 AM - 10:30 AM</td>
+      <td>Physical Education</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>11:00 AM - 12:30 PM</td>
+      <td>Mathematics</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>1:00 PM - 2:30 PM</td>
+      <td>Science</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>3:00 PM - 4:30 PM</td>
+      <td>English</td>
+    </tr>
+    <tr>
+      <td>Sunday</td>
+      <td>10:00 AM - 11:30 AM</td>
+      <td>Computer Science</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>1:00 PM - 2:30 PM</td>
+      <td>Social Studies</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>3:00 PM - 4:30 PM</td>
+      <td>Art</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>5:00 PM - 6:30 PM</td>
+      <td>Music</td>
+    </tr>
+  </table>
+</body>
+</html>
